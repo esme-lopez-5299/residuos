@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link href="~/css/estilos.css" rel="stylesheet" />
+
+    <title>Recicla Carbonifera</title>
+</head>
+<body>
+    <header class="pag-principal">
+        <nav>
+            <a href="~/Home/Index" class="logo">
+                <img src="~/img/logo.jpeg" />
+            </a>
+            <a href="~/Home/Index">Inicio</a>
+            <a href="~/Home/Capacitate">Capacitación</a>
+            <a href="~/Home/Evaluacion">Evaluación</a>
+            <a href="~/Home/Recompensas">Recompensas</a>
+            <a href="~/Home/QuienesSomos">Quienes somos</a>
+            <a target="_blank" href="~/Home/InicioSesion" class="icono-iniciarsesion"> <i class="fa fa-user"></i></a>
+
+        </nav>
+        <section class="textos-header">
+            <h1>Recicla carbonifera</h1>
+            <h2>La mejor forma para reciclar</h2>
+        </section>
+        <div class="wave" style=" height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                 style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                      style="stroke: none; fill: #fff;"></path>
+            </svg>
+        </div>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <div>
+            <h3>
+                Recicla-Carbonífera <i class="fa fa-copyright"></i> 2020
+                Dudas, servicio al cliente o colaboraciones itesrc@tecnm.mx
+            </h3>
+        </div>
+        <div class="redes-sociales">
+            <a target="_blank" href="http://facebook.com/"><i class="fa fa-facebook-f"></i></a>
+            <a target="_blank" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" href="http://youtube.com"><i class="fa fa-youtube"></i></a>
+            <label>|</label>
+            <label>Nuestras redes</label>
+        </div>
+
+    </footer>
+</body>
+</html>

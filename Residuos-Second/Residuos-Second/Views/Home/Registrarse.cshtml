@@ -1,0 +1,40 @@
+﻿@model Residuos_Second.Models.ViewModels.RegistrarseViewModels
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="registrar">
+    <div class="datos">
+        <h2>Registrar</h2>
+        <form method="post" asp-action="Registrarse" asp-controller="Home">
+            <label>Nombre:</label>
+            <input type="text" placeholder="Nombre" /><br />
+            <label>Apellido paterno</label>
+            <input type="text" placeholder="Apellido" /><br />
+            <label>Apellido materno</label>
+            <input type="text" placeholder="Apellido materno" /><br />
+            <div>
+                <label>Fecha de nacimiento</label><br />
+                <input type="date" placeholder="Fecha de nacimiento" /><br />
+            </div>
+            @*<label>Apellido paterno</label>
+            <input type="text" placeholder="Apellido paterno"/><br />*@
+            <label>Escuela de procedencia</label>
+            <select asp-for="Usuario.IdEscuela" asp-items="@(new SelectList(Model.Escuelas, "Id", "Nombre"))" required="required">
+                <option selected="selected" value="">-- Seleccionar país de origen --</option>
+            </select><br />
+            @*<label>Clave de la escuela</label>
+            <input type="text" placeholder="Clave de la escuela" /><br />*@
+            <label>Teléfono</label>
+            <input type="tel" placeholder="Teléfono" /><br />
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="Correo electrónico" /><br />
+            <label>Elije una contraseña</label>
+            <input type="password" placeholder="Elije una contraseña" /><br />
+            <label>Confirmar contraseña</label>
+            <input type="password" placeholder="Confirmar contraseña" /><br />
+            <input type="submit" value="Registrar" class="boton" />
+        </form>
+    </div>
+</div>
