@@ -130,3 +130,4 @@ C:\Users\esme_\OneDrive\Documentos\SEPTIMO SEMESTRE\FENACI\ResiduosRepository\re
 C:\Users\esme_\OneDrive\Documentos\SEPTIMO SEMESTRE\FENACI\ResiduosRepository\residuos\Residuos-Second\Residuos-Second\obj\Debug\netcoreapp3.1\Razor\Views\Home\Recompensas.cshtml.g.cs
 C:\Users\esme_\OneDrive\Documentos\SEPTIMO SEMESTRE\FENACI\ResiduosRepository\residuos\Residuos-Second\Residuos-Second\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registrarse.cshtml.g.cs
 C:\Users\esme_\OneDrive\Documentos\SEPTIMO SEMESTRE\FENACI\ResiduosRepository\residuos\Residuos-Second\Residuos-Second\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\esme_\OneDrive\Documentos\SEPTIMO SEMESTRE\FENACI\ResiduosRepository\residuos\Residuos-Second\Residuos-Second\obj\Debug\netcoreapp3.1\Razor\Views\Home\Capacitate2.cshtml.g.cs
