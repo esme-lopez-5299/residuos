@@ -22,6 +22,16 @@ namespace Residuos_Second.Controllers
             return View();
         }
 
+        public IActionResult Capacitate3()
+        {
+            return View();
+        }
+
+        public IActionResult Capacitate2()
+        {
+            return View();
+        }
+
         public IActionResult Evaluacion()
         {
             return View();
