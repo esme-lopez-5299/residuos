@@ -178,7 +178,9 @@ main .sobre-nosotros{
    
     
 }
-
+.galeria-port a{
+    text-decoration:none;
+}
 .imagen-port, .imagen-port-nivel {
     width: 24%;
     margin-bottom: 10px;
@@ -189,14 +191,15 @@ main .sobre-nosotros{
     
 }
 
-    .imagen-port-nivel{
-      
-        width:18vw;
-    }
+.imagen-port-nivel {
+    width: 18vw;
+  
+}
 
     .imagen-port > img, .imagen-port-nivel > img {
         width: 100%;
         height: 100%;
+       
         object-fit: cover;
         display: block;
     }
@@ -207,6 +210,7 @@ main .sobre-nosotros{
             width: 100%;
             height: 100%;
             top: 0;
+           
             transform: scale(0);
             background: hsla(184, 45%, 52%, 0.8 );
             /*background: hsla(180,91%,27%, 0.7);*/ /*fondo bienvenida*/
@@ -215,15 +219,20 @@ main .sobre-nosotros{
             justify-content: center;
             align-items: center;
             flex-direction: column;
+
         }
-           
+
 
             .hover-galeria img, .hover-galeria-nivel img {
-                width: 50px;
+               display:block;
+                width: 40px;
+             margin:auto;
+               
             }
             .hover-galeria-nivel img {
                 width: 40px;
                 margin:50px 0 10px 0;
+             
                
             }
 
@@ -522,6 +531,9 @@ header .textos-otras {
     .panel-nivel input:hover, .nivel-boton:hover {
         background-color: hsla(80, 71%, 50%, 0.40);
     }
+    .capacitacion .panel-nivel a{
+        text-decoration:none;
+    }
 .nivel-video {
     padding: 0px 0 10px 0;
     /* background-color:beige;*/
@@ -539,7 +551,7 @@ header .textos-otras {
    
 
 }
-.video video {
+.video iframe {
     display:block;
    /* margin:20px 5vh 20px 5vh;*/
    margin:auto;
@@ -567,6 +579,9 @@ header .textos-otras {
     width:200px;
     margin:auto;
     margin-top:10px;
+}
+.toma-evaluacion a{
+    text-decoration:none;
 }
 
 

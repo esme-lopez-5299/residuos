@@ -6721,25 +6721,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\esme_\\.nuget\\packages\\": {},
+    "C:\\Users\\nayla\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esme_\\OneDrive\\Documentos\\SEPTIMO SEMESTRE\\FENACI\\ResiduosRepository\\residuos\\Residuos-Second\\Residuos-Second\\Residuos-Second.csproj",
+      "projectUniqueName": "C:\\Users\\nayla\\source\\repos\\ProyectoResiduos\\Residuos-Second\\Residuos-Second\\Residuos-Second.csproj",
       "projectName": "Residuos-Second",
-      "projectPath": "C:\\Users\\esme_\\OneDrive\\Documentos\\SEPTIMO SEMESTRE\\FENACI\\ResiduosRepository\\residuos\\Residuos-Second\\Residuos-Second\\Residuos-Second.csproj",
-      "packagesPath": "C:\\Users\\esme_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esme_\\OneDrive\\Documentos\\SEPTIMO SEMESTRE\\FENACI\\ResiduosRepository\\residuos\\Residuos-Second\\Residuos-Second\\obj\\",
+      "projectPath": "C:\\Users\\nayla\\source\\repos\\ProyectoResiduos\\Residuos-Second\\Residuos-Second\\Residuos-Second.csproj",
+      "packagesPath": "C:\\Users\\nayla\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nayla\\source\\repos\\ProyectoResiduos\\Residuos-Second\\Residuos-Second\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\esme_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nayla\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
